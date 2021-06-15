@@ -20,18 +20,18 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
   }
 `]
 })
-export class SubwaysurfersComponent implements OnInit {
+export class SubwaysurfersComponent {
 
-  constructor() { }
+  closeResult: string | undefined;
 
-  ngOnInit(): void {
+
+
+  constructor(private modalService: NgbModal) {}
+
+  NgOnInit() {}
+
+  openVerticallyCentered(content: any) {
+    this.modalService.open(content, { centered: true });
   }
-
 }
-// tslint:disable-next-line:only-arrow-functions
-(function() {
-  var s = document.createElement('script');
-  s.async = true;
-  s.src = 'https://www.leshylabs.com/apps/tuner/widget.js';
-  document.body.appendChild(s);
-})();
+

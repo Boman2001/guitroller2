@@ -3,7 +3,21 @@
 <h1>Subway Surfers</h1>
 <app-homebutton></app-homebutton>
 
- <iframe src="https://www.minikoyuncu.org/wp-content/swf/subway-surfers-2.html" name="Subway Sufers" width="900" height="700" frameborder="0" scrolling="no" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
+<!-- <iframe src="https://www.minikoyuncu.org/wp-content/swf/subway-surfers-2.html" name="Subway Sufers" width="900" height="700" frameborder="0" scrolling="no" allowfullscreen><p>Your browser does not support iframes.</p></iframe> -->
 
-<div id="leshyTuner" startDisabled="true" style="height: 280px">
-</div>
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title">Modal title</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <iframe src="https://maxiicano.github.io/guitroller2/" name="tuner" width="900" height="700" frameborder="0" scrolling="no" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
+    </div>w
+    <div class="modal-footer">
+      <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+    </div>
+  </ng-template>
+
+<button class="btn btn-outline-primary mb-2 mr-2" (click)="openVerticallyCentered(content)">Tuner</button>
