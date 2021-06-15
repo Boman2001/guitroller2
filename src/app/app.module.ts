@@ -12,7 +12,6 @@ import { FooterComponent } from './legacy/footer/footer.component'
 import { HomeComponent } from './legacy/home/home.component'
 import { HomebuttonComponent } from './legacy/homebutton/homebutton.component'
 import { IndevelopmentComponent } from './legacy/indevelopment/indevelopment.component'
-import { ShowcaseComponent } from './legacy/showcase/showcase.component'
 import { SubwaysurfersComponent } from './legacy/subwaysurfers/subwaysurfers.component'
 import { LogoComponent } from './legacy/logo/logo.component'
 import { MaintextComponent } from './legacy/maintext/maintext.component'
@@ -23,7 +22,6 @@ import { FeaturedgamesComponent } from './legacy/featuredgames/featuredgames.com
 @NgModule({
   declarations: [AppComponent,
     FooterComponent,
-    ShowcaseComponent,
     SubwaysurfersComponent,
     HomeComponent,
     AllgamesComponent,
@@ -31,7 +29,8 @@ import { FeaturedgamesComponent } from './legacy/featuredgames/featuredgames.com
     IndevelopmentComponent,
     MaintextComponent,
     LogoComponent,
-    FeaturedGamesCarouselComponent, FeaturedgamesComponent
+    FeaturedGamesCarouselComponent,
+    FeaturedgamesComponent
 
   ],
   imports: [BrowserModule, RouterModule, NgbModule, AppRoutingModule, IvyCarouselModule],
