@@ -6,20 +6,22 @@ background-color: white;
 margin-bottom: 7px;
 margin-right: auto;
 margin-left: auto;
-border-width: 4px;
+border-width: 2px;
 margin-top: 5px;
 }
 
 h5 {
 margin-bottom: -5px;
 margin-left: 55%;
+color: white;
+
 }
 
-h5:hover {
+a:hover {
   color: grey;
 }
 a {
-  background-color: none;
   text-decoration: none;
-  color:#fff;
+  color:white;
+
 }

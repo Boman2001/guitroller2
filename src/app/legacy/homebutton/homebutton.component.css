@@ -110,3 +110,6 @@ h4 {
 {
   opacity: 1;
 }
+.modal-body {
+  width: 500px;
+}

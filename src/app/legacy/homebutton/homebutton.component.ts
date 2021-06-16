@@ -20,13 +20,15 @@ export class HomebuttonComponent {
 
   closeResult: string | undefined;
 
-
-
   constructor(private modalService: NgbModal) {}
 
   NgOnInit() {}
 
   openVerticallyCentered(content: any) {
-    this.modalService.open(content, { centered: true });
+    this.modalService.open(content, { centered: true, size: 'xl' });
+
   }
+
 }
+
+

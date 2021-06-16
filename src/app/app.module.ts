@@ -5,7 +5,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './core/app/app.component'
 import { RouterModule } from '@angular/router'
-
 import { CommonModule } from '@angular/common'
 import { AllgamesComponent } from './legacy/allgames/allgames.component'
 import { FooterComponent } from './legacy/footer/footer.component'

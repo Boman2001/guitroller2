@@ -1,4 +1,4 @@
-<h4><a routerLink="/">
+<h4><a routerLink="/home">
     <span></span>
     <span></span>
     <span></span>
@@ -13,12 +13,14 @@
     </button>
   </div>
   <div class="modal-body">
-    <iframe src="https://maxiicano.github.io/guitroller2/" name="tuner" width="450" height="300" frameborder="0" scrolling="no"><p>Your browser does not support iframes.</p></iframe>
-  </div>w
+
+    <iframe src="https://maxiicano.github.io/guitroller2/"  allow="microphone" name="tuner" width="1100"  height="700" frameborder="0" scrolling="no" allowfullscreen="true"><p>Your browser does not support iframes.</p></iframe>
+  </div>
   <div class="modal-footer">
     <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
   </div>
 </ng-template>
+
 
 <div class='tuner'> <h4> <a (click)="openVerticallyCentered(content)">
   <span></span>
@@ -27,3 +29,5 @@
   <span></span>
   Tuner</a></h4>
 </div>
+
+
