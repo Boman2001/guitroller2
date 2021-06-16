@@ -26,7 +26,7 @@ Application.prototype.start = function() {
     }
   }
 
-swal.fire('Welcome the Guitroller tuner!').then(function() {
+swal.fire('Star tuning!').then(function() {
    self.tuner.init()
    self.frequencyData = new Uint8Array(self.tuner.analyser.frequencyBinCount)
   })
