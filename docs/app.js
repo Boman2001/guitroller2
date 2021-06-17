@@ -26,13 +26,13 @@ Application.prototype.start = function() {
     }
   }
 
- swal.fire('Start Guitroller tuner!').then(function() {
-   self.tuner.init()
-   self.frequencyData = new Uint8Array(self.tuner.analyser.frequencyBinCount)
+  swal.fire('Welcome online tuner!').then(function() {
+    self.tuner.init()
+    self.frequencyData = new Uint8Array(self.tuner.analyser.frequencyBinCount)
   })
 
-   this.$a4.addEventListener('click', function () {
-     swal.fire({
+  this.$a4.addEventListener('click', function () {
+    swal.fire({
       input: 'number',
       inputValue: self.a4,
     }).then(function ({ value: a4 }) {
