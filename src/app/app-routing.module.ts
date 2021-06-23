@@ -5,7 +5,6 @@ import { HomeComponent } from './legacy/home/home.component'
 import { IndevelopmentComponent } from './legacy/indevelopment/indevelopment.component'
 import { SubwaysurfersComponent } from './legacy/subwaysurfers/subwaysurfers.component'
 
-// TODO inladen via module
 const routes: Routes = [
   {
     path: 'allgames',
