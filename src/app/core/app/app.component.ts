@@ -1,4 +1,5 @@
 import { Component } from '@angular/core'
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core'
 })
 export class AppComponent {
   title = 'My App'
+
+  closeResult: string | undefined;
+
+  constructor(private modalService: NgbModal) {}
+
+  NgOnInit() {}
+
+  openVerticallyCentered(content: any) {
+    this.modalService.open(content, { centered: true, size: 'xl' });
+
+  }
+
 }

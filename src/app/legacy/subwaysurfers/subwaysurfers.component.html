@@ -1,5 +1,32 @@
 <h1>Subway Surfers</h1>
-<app-homebutton></app-homebutton>
 
-<iframe src="https://www.minikoyuncu.org/wp-content/swf/subway-surfers-2.html" name="Subway Sufers" width="1000" height="800" frameborder="0" scrolling="no" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
+<iframe src="https://www.minikoyuncu.org/wp-content/swf/subway-surfers-2.html" name="Subway Sufers" width="1150" height="900" frameborder="0" scrolling="no" allowfullscreen><p>Your browser does not support iframes.</p></iframe>
+
+
+<h3 class='text-center'>Difficulty:</h3>
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" checked aria-pressed="true"> Beginner
+  </label>
+  <label  class="btn btn-secondary" placement="bottom" ngbTooltip="This page is currently in development!">
+    <input type="radio" name="options" id="option2" disabled placement="bottom" ngbTooltip="This page is currently in development!"> Intermediate
+  </label>
+  <label  class="btn btn-secondary" placement="bottom" ngbTooltip="This page is currently in development!">
+    <input type="radio" name="options" id="option3" disabled> Hard
+  </label>
+</div>
+
+
+<div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" ></a>
+<img src='assets/img/uitleg.png'>
+</div>
+  <h4 class='instructions'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instructions</h4>
+
+  <div class="openbtn">
+  <input type="checkbox" id="animation1" >
+  <label class='hitbox' for="animation1" (click)='openNav()'>
+    <div class="arrow"></div>
+  </label>
+</div>
 

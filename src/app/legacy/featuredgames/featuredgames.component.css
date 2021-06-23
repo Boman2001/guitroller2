@@ -17,10 +17,10 @@ color: white;
 
 }
 
-a:hover {
+.linkje:hover {
   color: grey;
 }
-a {
+.linkje {
   text-decoration: none;
   color:white;
 

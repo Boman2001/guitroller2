@@ -9,10 +9,12 @@ a {
 
 }
 .tuner {
-  margin-left: 13%;
+  margin-left: 10%;
+  z-index: 999;
 }
 a:hover {
     color: white !important;
+  text-decoration: none;
 }
 
 a span{
@@ -85,12 +87,21 @@ a:hover span:nth-child(4){
     transition: transform 0.5s;
 }
 
+/*h4 {*/
+/*  margin-left: -950px;*/
+/*  margin-top: -55px;*/
+/*}*/
 h4 {
-    margin-left: -90%;
-    margin-top: -55px;
+    margin-left: 620px;
+    margin-top: -115px;
+  position: absolute;
 }
 
-
+.allgamesbutton{
+  position: absolute;
+  margin-left: 40%;
+  margin-top: -115px;
+}
 .dark-modal .modal-content {
   background-color: #292b2c;
   color: white;
@@ -112,4 +123,8 @@ h4 {
 }
 .modal-body {
   width: 500px;
+}
+
+.buttono {
+  margin-left: 723px;
 }

@@ -17,6 +17,7 @@ import { MaintextComponent } from './legacy/maintext/maintext.component'
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { FeaturedGamesCarouselComponent } from './featured-games-carousel/featured-games-carousel.component';
 import { FeaturedgamesComponent } from './legacy/featuredgames/featuredgames.component'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent,
@@ -29,10 +30,9 @@ import { FeaturedgamesComponent } from './legacy/featuredgames/featuredgames.com
     MaintextComponent,
     LogoComponent,
     FeaturedGamesCarouselComponent,
-    FeaturedgamesComponent
-
+    FeaturedgamesComponent,
   ],
-  imports: [BrowserModule, RouterModule, NgbModule, AppRoutingModule, IvyCarouselModule],
+  imports: [BrowserModule, RouterModule, NgbModule, AppRoutingModule, IvyCarouselModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
 })
