@@ -14,18 +14,10 @@ export class SubwaysurfersComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  // closeNav() {
-  //   document.getElementById('mySidepanel').style.width = '0';
-  // }
-
-  // openNav() {
-  //   document.getElementById('mySidepanel').style.width = '700px';
-  // }
-
   openNav() {
     let x = document.getElementById('mySidepanel')
     console.log(x.style.width);
-    if (x.style.width == '700px') {
+    if (x.style.width === '700px') {
       x.style.width = '0px';
     } else {
       x.style.width = '700px';

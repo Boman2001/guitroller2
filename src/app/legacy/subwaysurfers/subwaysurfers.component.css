@@ -56,8 +56,8 @@ h3 {
   padding: 10px 15px;
   border: none;
   position: absolute;
-  left: 73%;
-  top: 19.5%;
+  left: 72%;
+  top: 17.5%;
   z-index: 999;
 }
 
@@ -198,8 +198,8 @@ label {
 }
 
 .instructions {
-  margin-left: 1180px;
-  margin-top: -953px;
+  margin-left: 1151px;
+  margin-top: -980px;
 }
 
 .hitbox {
