@@ -27,3 +27,11 @@ h1 {
 .hiddenimg:hover {
   opacity: 100%;
 }
+
+.hiddenimg1{
+  margin-top: -180px;
+  opacity: 0%;
+}
+.hiddenimg1:hover {
+  opacity: 100%;
+}
